@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "How to stroke a cat",
+    "description": "nice",
+    "tags": ["pets", "cats"],
+    "steps": [
+      {
+        "step": 1,
+        "section": "intro",
+        "complete": false,
+        "text": "find cat",
+        "image": "https://i.imgur.com/GTIuLxn.jpg",
+        "caption": "source: https://imgur.com/r/cats/GTIuLxn"
+      },
+      {
+        "step": 2,
+        "section": "intro",
+        "complete": false,
+        "text": "psst psst psst the cat",
+        "image": "",
+        "caption": ""
+      },
+      {
+        "step": 3,
+        "section": "intro",
+        "complete": false,
+        "text": "stroke the cat",
+        "image": "https://i.imgur.com/0TNdHzA.jpg",
+        "caption": "source https://imgur.com/gallery/0TNdHzA"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "How to make a cup of tea 🇬🇧",
+    "description": "pafdasfsa",
+    "tags": ["beverage"],
+    "steps": [
+      {
+        "step": 1,
+        "section": "intro",
+        "complete": false,
+        "text": "requirements, get mug, tea bag kettle/microwave optional milk optional teapot",
+        "image": "",
+        "caption": ""
+      },
+      {
+        "step": 2,
+        "section": "intro",
+        "complete": false,
+        "text": "Fill the kettle and turn the kettle on",
+        "image": "",
+        "caption": ""
+      },
+      {
+        "step": 3,
+        "section": "intro",
+        "complete": false,
+        "text": "put the a tea bag in the mug or teapot",
+        "image": "",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "place horlder",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique nulla ligula, non dignissim orci rutrum vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum laoreet ultrices vestibulum. Praesent tempus interdum ante, sed interdum lectus mattis sit amet.",
+    "tags": [],
+    "steps": []
+  },
+  {
+    "id": 4,
+    "description": "",
+    "title": "natsu",
+    "tags": [],
+    "steps": []
+  },
+  {
+    "id": 5,
+    "title": "shiba",
+    "description": "sudo shiba the one",
+    "tags": ["pets", "dogs"],
+    "steps": [
+      {
+        "step": 1,
+        "section": "intro",
+        "complete": false,
+        "text": "Start a shiba saving fund 💰",
+        "image": "",
+        "caption": ""
+      },
+      {
+        "step": 2,
+        "section": "intro",
+        "complete": false,
+        "text": "Have an appropriate schedule to spend enough time with sudo",
+        "image": "",
+        "caption": ""
+      },
+      {
+        "step": 3,
+        "section": "intro",
+        "complete": false,
+        "text": "scope out shiba breeders",
+        "image": "",
+        "caption": ""
+      },
+      {
+        "step": 4,
+        "section": "intro",
+        "complete": false,
+        "text": "get shiba",
+        "image": "",
+        "caption": ""
+      }
+    ]
+  }
+]
