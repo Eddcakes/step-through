@@ -81,7 +81,7 @@
     "id": 5,
     "title": "shiba",
     "description": "sudo shiba the one",
-    "tags": ["pets", "dogs"],
+    "tags": ["pets", "dogs", "woofer"],
     "steps": [
       {
         "step": 1,

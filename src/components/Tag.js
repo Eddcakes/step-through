@@ -30,7 +30,7 @@ export function Tag({
         py-1
         px-2
         mr-1
-        mt-1
+        ${removable ? '' : 'mt-1'}
         text-center
         cursor-pointer
         select-none

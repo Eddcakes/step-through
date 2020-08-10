@@ -35,7 +35,7 @@ export function SearchBar({
                 />
               ))}
           </div>
-          <div className='search px-1'>
+          <div className='search px-1 flex-grow'>
             <input
               className='py-2 w-full outline-none'
               placeholder='Search guides or #tags'
