@@ -20,7 +20,7 @@ export function Walkthrough() {
   }, [params]);
 
   return (
-    <div>
+    <>
       <div>
         <div>
           <Link
@@ -52,6 +52,6 @@ export function Walkthrough() {
           </>
         )}
       </div>
-    </div>
+    </>
   );
 }

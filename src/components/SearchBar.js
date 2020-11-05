@@ -16,7 +16,7 @@ export function SearchBar({
 }) {
   return (
     <>
-      <div className={`self-center w-1/2 outline-none`}>
+      <div className={`self-center outline-none w-full md:w-3/5`}>
         <div
           className={`flex flex-wrap border rounded ${
             focusParent ? 'shadow-outline' : ''
