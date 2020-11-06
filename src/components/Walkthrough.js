@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { BackArrow } from '../assets/icons/BackArrow';
-import { Step } from './Step';
-import data from '../data.json';
+import { useParams } from 'react-router-dom';
 
+import { Step } from './Step';
+import { BackButton } from './BackButton';
+import { DownloadButton } from './DownloadButton';
+import data from '../data.json';
 //should steps be able to be some sort of markdown or even html?
 
 export function Walkthrough() {
   let params = useParams();
   const [loading, setLoading] = useState(true);
   const [details, setDetails] = useState([]);
+
   useEffect(() => {
     //get data where id = params.id
     //set loading
@@ -22,22 +24,7 @@ export function Walkthrough() {
   return (
     <>
       <div>
-        <div>
-          <Link
-            to='/'
-            className={`
-          inline-flex
-          font-medium
-          border
-          rounded
-          p-2
-          hover:bg-gray-200
-          `}
-          >
-            <BackArrow />
-            <span>Back</span>
-          </Link>
-        </div>
+        <BackButton to={'/'} />
       </div>
       <div className='p-6'>
         <div className='font-bold'>{loading ? 'loading' : details.title} </div>
@@ -49,6 +36,9 @@ export function Walkthrough() {
             {details.steps.map((step, index) => {
               return <Step key={step.step} details={step} />;
             })}
+            <div className='py-4 float-right'>
+              <DownloadButton disabled={loading} content={details} />
+            </div>
           </>
         )}
       </div>

@@ -8,7 +8,7 @@ export default function App() {
   return (
     <Router>
       <div className='p-6 flex justify-center'>
-        <div className='max-w-4xl'>
+        <div className='w-full md:max-w-4xl'>
           <Switch>
             <Route path='/walkthrough/:id'>
               <Walkthrough />
