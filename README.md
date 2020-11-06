@@ -4,7 +4,9 @@ Created as a concept for an SPFx solution for quickly creating/editing step by s
 
 ## todo
 
-- [ ] download guides as pdf
+- [x] download guides as pdf
+
+React-pdf works really nicely, allows you to select the text in the pdf rather than just creating an image from your components then converting to pdf. Could create <Image /> of the radio buttons to make the pdf look a little more consistent with the web view
 
 ## codeSandbox
 
