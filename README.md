@@ -10,6 +10,10 @@ The implemented version breaks the data up into two api requests to SharePoint l
 
 React-pdf works really nicely, allows you to select the text in the pdf rather than just creating an image from your components then converting to pdf. Could create <Image /> of the radio buttons to make the pdf look a little more consistent with the web view
 
+## gif
+
+![](sketch/stepbystep.gif)
+
 ## codeSandbox
 
 codeSandbox version available [here](https://codesandbox.io/s/stepthrough-k1fcp)
