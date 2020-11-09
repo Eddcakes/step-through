@@ -2,6 +2,8 @@
 
 Created as a concept for an SPFx solution for quickly creating/editing step by step guides.
 
+The implemented version breaks the data up into two api requests to SharePoint lists for header details (title, description and tags) and the steps (steps, images and captions)
+
 ## todo
 
 - [x] download guides as pdf
